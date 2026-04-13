@@ -1,0 +1,84 @@
+   @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Palette+Mosaic&family=Poller+One&display=swap');
+
+   html,
+   body {
+       height: 100%;
+   }
+
+   body {
+       text-align: center;
+       font-size: 20px;
+       background: linear-gradient(135deg, #89f7fe, #66a6ff);
+       overflow: hidden;
+       font-family: 'Rubik', sans-serif;
+   }
+
+   .top-bar {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 20px 40px;
+   }
+
+   .title {
+       font-family: 'Fjalla One';
+       font-size: 42px;
+       margin: 0;
+       color: #333;
+       text-shadow: 2px 2px 0px white;
+   }
+
+   button {
+       margin: 20px;
+       padding: 10px 20px;
+       font-size: 18px;
+       border: none;
+       border-radius: 8px;
+       background-color: #4CAF50;
+       color: white;
+       cursor: pointer;
+       transition: 0.2s;
+   }
+
+   button:hover {
+       background-color: #45a049;
+       transform: scale(1.05);
+   }
+
+   #langBtn {
+       background: rgba(255, 255, 255, 0.6);
+       border: 1px solid rgba(0, 0, 0, 0.1);
+       color: #333;
+       padding: 6px 12px;
+       border-radius: 8px;
+       margin: 0;
+   }
+
+   .game {
+       margin-top: 80px;
+   }
+
+   input {
+       font-size: 24px;
+       margin-top: 10px;
+       padding: 8px;
+       font-size: 20px;
+       border-radius: 6px;
+       border: 1px solid #ccc;
+       margin-top: 15px;
+   }
+
+   .prompt {
+       margin-top: 30px;
+       font-size: 24px;
+   }
+
+
+   .fill {
+       color: #d62828;
+       border-bottom: 2px solid #e0d4ff;
+       font-family: 'Caveat', cursive;
+       padding: 0 6px;
+       margin: 4px;
+       font-size: 32px;
+   }
